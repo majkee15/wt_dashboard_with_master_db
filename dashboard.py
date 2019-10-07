@@ -189,4 +189,4 @@ def sidebar_AW(aw_t, arc_t, arn_t):
         return switcher.get(last_clicked, outils.rp_all_weather)
 
 if __name__ == '__main__':
-    app.run_server(host='0.0.0.0', debug=True, port=8050)
+    app.run_server(host='0.0.0.0', debug=False, port=8050)
